@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Satisfy&display=swap');
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -41,10 +42,31 @@ body {
 
 .intro {
     display: flex;
-    justify-content: flex-end;
     max-width: 45%;
 }
+
 .resume {
     width: 100%;
     height: 83.5vh;
+}
+
+.img1 {
+    display: flex;
+    width: 30vh;
+    height: 30vh;
+}
+.jurassic {
+font-size: 18px;
+}
+.zen {
+font-size: 18px;
+}
+.budget {
+font-size: 18px;
+}
+.home {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3vh;
+
 }
