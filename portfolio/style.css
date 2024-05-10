@@ -52,21 +52,84 @@ body {
 
 .img1 {
     display: flex;
-    width: 30vh;
+    width: 20vh;
     height: 30vh;
+    border-left: solid;
+    border-bottom-style: solid;
+    border-left-color: #281418;
+    border-bottom-color: #281418;
+    border-width: 1em;
+    margin: 1em;
 }
+.center {
+    display: flex;
+    justify-content: center;
+}
+
 .jurassic {
-font-size: 18px;
+    font-size: 18px;
 }
+
 .zen {
-font-size: 18px;
+    font-size: 18px;
 }
+
 .budget {
-font-size: 18px;
+    font-size: 18px;
 }
+
 .home {
     display: flex;
     justify-content: flex-start;
     padding-top: 3vh;
 
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.content {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    border-left: 3px solid #281418;
+    height: 400px;
+    padding-right: 1em;
+}
+
+h2.line {
+    display: flex;
+    align-items: center;
+}
+
+div.ses {
+    border-left: 3px solid #281418;
+    height: 500px;
+    padding-left: 1em;
+}
+
+.contents {
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects.right {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.img2 {
+    width: 95%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    padding: 1em;
 }
