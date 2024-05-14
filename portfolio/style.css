@@ -42,7 +42,7 @@ body {
 
 .intro {
     display: flex;
-    max-width: 45%;
+    max-width: 30%;
 }
 
 .resume {
@@ -68,6 +68,7 @@ body {
 
 .jurassic {
     font-size: 18px;
+
 }
 
 .zen {
@@ -93,6 +94,7 @@ body {
 
 .content {
     padding-top: 1em;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -116,6 +118,7 @@ div.ses {
 
 .contents {
     padding-top: 1em;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -132,4 +135,16 @@ div.ses {
     justify-content: center;
     object-fit: cover;
     padding: 1em;
+}
+.screenshot {
+    width: 55vh;
+    height: 40vh;
+    display: flex;
+}
+.page-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.whole {
+    font-size: 20px;
 }
