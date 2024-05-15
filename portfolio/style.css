@@ -190,3 +190,36 @@ p.size {
 .column.two {
     width: 25%;
 }
+.column.three {
+    width: 22%;
+}
+.column.four {
+    width: 15%;
+}
+.container.yes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+.box.see {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #281418;
+    width: 22.5%;
+}
+.box.see .img3 {    
+    width: 85%;
+}
+.AboutMe {
+    max-width: 45%;
+    padding: 1em;
+}
+.img4 {
+    border: none;
+    border-radius: 2em;
+    padding: 1em;
+    width: 45vh;
+}
+
