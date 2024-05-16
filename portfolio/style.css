@@ -222,4 +222,43 @@ p.size {
     padding: 1em;
     width: 45vh;
 }
+footer {
+    background-color: #3B403A;
+margin-bottom: -11px;
+}
+footer p {
+    padding: 0.5em;
+    /* padding-left: 1em; */
+}
+.f {
 
+}
+.tag {
+}
+
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.english {
+    display: flex;
+    padding: 1em;
+    justify-content: center;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.img5 {
+    width: 30vh;
+    padding: 2em;
+    border: none;
+    border-radius: 2em;
+}
